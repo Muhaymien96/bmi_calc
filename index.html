@@ -18,19 +18,53 @@
         </div>
         <div class="row fields mt-5">
             <div class="col-6">
-                <label for="height_input" id="height"><strong>Your Height:</strong></label><input type="text" id="height_input"></div>
+                <label for="height_input" id="height"><strong>Your Height:</strong></label><input type="text"
+                    id="height_input"></div>
             <div class="col-6">
-                <label for="weight_input" id="height"><strong>Your Weight:</strong></label><input type="text" id="weight_input">  
+                <label for="weight_input" id="height"><strong>Your Weight:</strong></label><input type="text"
+                    id="weight_input">
             </div><br>
             <div class="col-6">
-                <label for="calc" id="bmi-calc"><strong>Calculate BMI:</strong></label><button id="calc" onclick="calculate()">Calculate</button>
+                <label for="calc" id="bmi-calc"><strong>Calculate BMI:</strong></label><button id="calc"
+                    onclick="calculate()">Calculate</button>
             </div>
             <div class="col-6">
                 <label for="display">The answer is: </label><input type="textbox" id="display" name="display">
             </div>
         </div>
-        
-</div>
+        <div class="table2">
+        <table>
+            <tr>
+                <th class="table-b">BMI</th>
+                <th class="table-b">Weight Class</th>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">Below 18.5</td>
+                <td class="table-d">Underwight</td>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">18.5-24.9</td>
+                <td class="table-d">Normal Weight</td>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">25.0-29.9</td>
+                <td class="table-d">Overweight</td>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">30.0-34.9</td>
+                <td class="table-d">Obesity Class I</td>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">35.0-39.9</td>
+                <td class="table-d">Obesity Class II</td>
+            </tr>
+            <tr class="table-b">
+                <td class="table-d">Above 40</td>
+                <td class="table-d">Obesity Class III</td>
+            </tr>
+        </table>
+    </div>
+    </div>
 
     <!-- JSPlugins -->
     <script src="./script.js"></script>
